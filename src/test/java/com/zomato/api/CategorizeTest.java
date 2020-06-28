@@ -18,6 +18,9 @@ public class CategorizeTest {
 		user_key = ZomatoURLs.API_KEY.value();
 	}
 	
+	/*
+	 * Testcase to verify whether the categorize API returns 13 categories by passing valid user_key
+	 */
 	@Test
 	public void categorizeSuccessResponse() {
 		String response= categorizeLib.getCategories(user_key);
@@ -26,6 +29,10 @@ public class CategorizeTest {
 				jsoList.length==13);
 	}
 	
+	
+	/*
+	 * Testcase to verify whether the categorize API gives Invalid API by passing invalid user_key
+	 */
 	@Test
 	public void categorizeInvalidUserkey() {
 		String response= categorizeLib.getCategories(user_key+"09");

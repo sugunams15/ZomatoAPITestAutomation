@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-28T10:54:52 IST" name="Suite" finished-at="2020-06-28T10:55:01 IST" duration-ms="8628">
+    <groups>
+    </groups>
+    <test started-at="2020-06-28T10:54:52 IST" name="CategorizeAPITests" finished-at="2020-06-28T10:54:56 IST" duration-ms="3379">
+      <class name="com.zomato.api.CategorizeTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CategorizeTest@2f177a4b]" started-at="2020-06-28T10:54:52 IST" name="init" finished-at="2020-06-28T10:54:53 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CategorizeTest@2f177a4b]" started-at="2020-06-28T10:54:52 IST" name="init" finished-at="2020-06-28T10:54:53 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="categorizeSuccessResponse()[pri:0, instance:com.zomato.api.CategorizeTest@2f177a4b]" started-at="2020-06-28T10:54:53 IST" name="categorizeSuccessResponse" finished-at="2020-06-28T10:54:55 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorizeSuccessResponse -->
+        <test-method signature="categorizeInvalidUserkey()[pri:0, instance:com.zomato.api.CategorizeTest@2f177a4b]" started-at="2020-06-28T10:54:53 IST" name="categorizeInvalidUserkey" finished-at="2020-06-28T10:54:56 IST" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorizeInvalidUserkey -->
+      </class> <!-- com.zomato.api.CategorizeTest -->
+    </test> <!-- CategorizeAPITests -->
+    <test started-at="2020-06-28T10:54:56 IST" name="CitiesAPITests" finished-at="2020-06-28T10:54:57 IST" duration-ms="1458">
+      <class name="com.zomato.api.CitiesTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="init" finished-at="2020-06-28T10:54:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="init" finished-at="2020-06-28T10:54:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="citiesSuccessResponseWithCityId()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="citiesSuccessResponseWithCityId" finished-at="2020-06-28T10:54:56 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesSuccessResponseWithCityId -->
+        <test-method signature="citiesSuccessResponseWithCityName()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="citiesSuccessResponseWithCityName" finished-at="2020-06-28T10:54:56 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesSuccessResponseWithCityName -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="init" finished-at="2020-06-28T10:54:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="citiesSuccessResponseWithCityCords()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="citiesSuccessResponseWithCityCords" finished-at="2020-06-28T10:54:57 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesSuccessResponseWithCityCords -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="init" finished-at="2020-06-28T10:54:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="citiesSuccessResponseWithoutParams()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:56 IST" name="citiesSuccessResponseWithoutParams" finished-at="2020-06-28T10:54:57 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesSuccessResponseWithoutParams -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:57 IST" name="init" finished-at="2020-06-28T10:54:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="citiesSuccessResponseWithInvalidCords()[pri:0, instance:com.zomato.api.CitiesTest@75329a49]" started-at="2020-06-28T10:54:57 IST" name="citiesSuccessResponseWithInvalidCords" finished-at="2020-06-28T10:54:57 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesSuccessResponseWithInvalidCords -->
+      </class> <!-- com.zomato.api.CitiesTest -->
+    </test> <!-- CitiesAPITests -->
+    <test started-at="2020-06-28T10:54:57 IST" name="LocationDetailsAPITests" finished-at="2020-06-28T10:54:58 IST" duration-ms="1151">
+      <class name="com.zomato.api.LocationDetailsTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:57 IST" name="init" finished-at="2020-06-28T10:54:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:57 IST" name="init" finished-at="2020-06-28T10:54:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="locationDetailsSuccessResponse()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:57 IST" name="locationDetailsSuccessResponse" finished-at="2020-06-28T10:54:58 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationDetailsSuccessResponse -->
+        <test-method signature="locationDetailsWithoutEntityId()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:57 IST" name="locationDetailsWithoutEntityId" finished-at="2020-06-28T10:54:58 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationDetailsWithoutEntityId -->
+        <test-method signature="locationDetailsWithoutEntityType()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:58 IST" name="locationDetailsWithoutEntityType" finished-at="2020-06-28T10:54:58 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationDetailsWithoutEntityType -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:58 IST" name="init" finished-at="2020-06-28T10:54:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="locationInvalidUserkey()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:58 IST" name="locationInvalidUserkey" finished-at="2020-06-28T10:54:58 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationInvalidUserkey -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationDetailsTest@794cb805]" started-at="2020-06-28T10:54:58 IST" name="init" finished-at="2020-06-28T10:54:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- com.zomato.api.LocationDetailsTest -->
+    </test> <!-- LocationDetailsAPITests -->
+    <test started-at="2020-06-28T10:54:59 IST" name="LocationsAPITests" finished-at="2020-06-28T10:55:00 IST" duration-ms="1134">
+      <class name="com.zomato.api.LocationsTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="init" finished-at="2020-06-28T10:54:59 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="init" finished-at="2020-06-28T10:54:59 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="locationsSuccessResponseWithLatandLon()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="locationsSuccessResponseWithLatandLon" finished-at="2020-06-28T10:54:59 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationsSuccessResponseWithLatandLon -->
+        <test-method signature="locationsSuccessResponseWithCityandCount()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="locationsSuccessResponseWithCityandCount" finished-at="2020-06-28T10:54:59 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationsSuccessResponseWithCityandCount -->
+        <test-method signature="categorizeInvalidUserkey()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="categorizeInvalidUserkey" finished-at="2020-06-28T10:54:59 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorizeInvalidUserkey -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="init" finished-at="2020-06-28T10:54:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="init" finished-at="2020-06-28T10:54:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="locationsSuccessResponseWithIncreasedCount()[pri:0, instance:com.zomato.api.LocationsTest@433d61fb]" started-at="2020-06-28T10:54:59 IST" name="locationsSuccessResponseWithIncreasedCount" finished-at="2020-06-28T10:55:00 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationsSuccessResponseWithIncreasedCount -->
+      </class> <!-- com.zomato.api.LocationsTest -->
+    </test> <!-- LocationsAPITests -->
+    <test started-at="2020-06-28T10:55:00 IST" name="RestaurantAPITests" finished-at="2020-06-28T10:55:01 IST" duration-ms="1017">
+      <class name="com.zomato.api.RestaurantTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.RestaurantTest@4690b489]" started-at="2020-06-28T10:55:00 IST" name="init" finished-at="2020-06-28T10:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="restaurantSuccessResponse()[pri:0, instance:com.zomato.api.RestaurantTest@4690b489]" started-at="2020-06-28T10:55:00 IST" name="restaurantSuccessResponse" finished-at="2020-06-28T10:55:01 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurantSuccessResponse -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.zomato.api.RestaurantTest@4690b489]" started-at="2020-06-28T10:55:00 IST" name="init" finished-at="2020-06-28T10:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="restaurantResponseWithoutResID()[pri:0, instance:com.zomato.api.RestaurantTest@4690b489]" started-at="2020-06-28T10:55:00 IST" name="restaurantResponseWithoutResID" finished-at="2020-06-28T10:55:00 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurantResponseWithoutResID -->
+      </class> <!-- com.zomato.api.RestaurantTest -->
+    </test> <!-- RestaurantAPITests -->
+  </suite> <!-- Suite -->
+</testng-results>

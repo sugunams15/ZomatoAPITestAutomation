@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-  </test> <!-- Test -->
+<suite name="Suite" parallel="methods" thread-count="2">
+
+
+	<test name="CategorizeAPITests">
+		<classes>
+			<class name="com.zomato.api.CategorizeTest">
+				<methods>
+					<include name="categorizeSuccessResponse"></include>
+					<include name="categorizeInvalidUserkey"></include>
+				</methods>
+			</class>
+		</classes>
+		</test>
+		
+		<test name="CitiesAPITests">
+		<classes>
+			<class name="com.zomato.api.CitiesTest">
+				<methods>
+					<include name="citiesSuccessResponseWithCityName"></include>
+					<include name="citiesSuccessResponseWithCityId"></include>
+					<include name="citiesSuccessResponseWithCityCords"></include>
+					<include name="citiesSuccessResponseWithoutParams"></include>
+					<include name="citiesSuccessResponseWithInvalidCords"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="LocationDetailsAPITests">
+		<classes>
+			<class name="com.zomato.api.LocationDetailsTest">
+				<methods>
+					<include name="locationDetailsSuccessResponse"></include>
+					<include name="locationDetailsWithoutEntityId"></include>
+					<include name="locationDetailsWithoutEntityType"></include>
+					<include name="locationInvalidUserkey"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="LocationsAPITests">
+		<classes>
+			<class name="com.zomato.api.LocationsTest">
+				<methods>
+					<include name="locationsSuccessResponseWithCityandCount"></include>
+					<include name="locationsSuccessResponseWithLatandLon"></include>
+					<include name="categorizeInvalidUserkey"></include>
+					<include name="locationsSuccessResponseWithIncreasedCount"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="RestaurantAPITests">
+		<classes>
+			<class name="com.zomato.api.RestaurantTest">
+				<methods>
+					<include name="restaurantSuccessResponse"></include>
+					<include name="restaurantResponseWithoutResID"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
 </suite> <!-- Suite -->

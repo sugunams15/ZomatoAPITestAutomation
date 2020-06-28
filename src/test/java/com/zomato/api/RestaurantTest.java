@@ -29,9 +29,10 @@ public class RestaurantTest {
 	}
 	
 	/*
-	 * 
+	 * Testcase to verify whether the restaurants API returns valid restaurant details, 
+	 * by passing valid user_key and res_id obtained fromloaction_details API
 	 */
-	//@Test
+	@Test
 	public void restaurantSuccessResponse() {
 		
 		String restId;
@@ -61,6 +62,10 @@ public class RestaurantTest {
 		assertThat("city should be bengaluru", 
 				response.jsonPath().get("location.city").equals("Bangalore"));
 	}
+	
+	/*
+	 * Testcase to verify whether the restaurants API returns error by passing valid user_key and without res_id
+	 */
 	
 	@Test
 	public void restaurantResponseWithoutResID() {

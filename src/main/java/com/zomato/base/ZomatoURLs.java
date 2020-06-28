@@ -35,7 +35,7 @@ public enum ZomatoURLs {
 		try {
 			if(StringUtils.isEmpty(System.getProperty("env"))) {
 				properties.load(
-						new FileInputStream("C:\\Users\\himan\\ZetaTest\\ZetaZomatoTest\\src\\test"
+						new FileInputStream(System.getProperty("basedir")
 								+"\\resources\\zomato.cfg")
 						);
 			}

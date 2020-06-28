@@ -28,6 +28,9 @@ public class LocationDetailsTest {
 		user_key = ZomatoURLs.API_KEY.value();
 	}
 	
+	/*
+	 * Testcase to verify whether the location_details API returns valid restaurant and city details by passing valid user_key, city_name and city id
+	 */
 	
 	@Test
 	public void locationDetailsSuccessResponse() {
@@ -68,6 +71,10 @@ public class LocationDetailsTest {
 		
 	}
 	
+	/*
+	 * Testcase to verify whether the location_details API returns error by passing valid user_key, city_name and without city id(entity_id)
+	 */
+	
 	@Test
 	public void locationDetailsWithoutEntityId() {
 		Response response = locationDetailsLib.getLocationDetails(user_key, "", "city");
@@ -79,7 +86,11 @@ public class LocationDetailsTest {
 				response.jsonPath().get("message").equals("Invalid location parameters"));
 		
 	}
-
+	
+	/*
+	 * Testcase to verify whether the location_details API returns error by passing valid user_key, city_id and without city_name(entity_name)
+	 */
+	
 	@Test
 	public void locationDetailsWithoutEntityType() {
 		Response response = locationDetailsLib.getLocationDetails(user_key, "4", "");
@@ -91,6 +102,10 @@ public class LocationDetailsTest {
 				response.jsonPath().get("message").equals("Invalid location parameters"));
 		
 	}
+	
+	/*
+	 * Testcase to verify whether the location_details API returns error by passing invalid user_key, city_name and city id(entity_id)
+	 */
 	
 	@Test
 	public void locationInvalidUserkey() {

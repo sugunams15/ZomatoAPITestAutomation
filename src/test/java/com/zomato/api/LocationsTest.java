@@ -28,6 +28,10 @@ public class LocationsTest {
 		user_key = ZomatoURLs.API_KEY.value();
 	}
 	
+	/*
+	 * Testcase to verify whether the locations API returns valid Location list by passing valid user_key, city_name and count
+	 */
+	
 	@Test
 	public void locationsSuccessResponseWithCityandCount() {
 		Response response = locationsLib.getLocations(user_key, "Bengaluru","","","2");
@@ -55,6 +59,10 @@ public class LocationsTest {
 		
 		
 	}
+	
+	/*
+	 * Testcase to verify whether the locations API returns valid Location list by passing valid user_key, coordinates
+	 */
 	
 	@Test
 	public void locationsSuccessResponseWithLatandLon() {
@@ -90,6 +98,10 @@ public class LocationsTest {
 		
 	}
 	
+	/*
+	 * Testcase to verify whether the locations API returns error by passing invalid user_key
+	 */
+	
 	@Test
 	public void categorizeInvalidUserkey() {
 		Response response = locationsLib.getLocations("", "","12.958335","77.721879","");
@@ -100,6 +112,10 @@ public class LocationsTest {
 		assertThat("Should get Invalid API message", 
 				response.jsonPath().get("message").equals("Invalid API Key"));
 	}
+	
+	/*
+	 * Testcase to verify whether the locations API returns valid Location list by passing valid user_key, coordinates and count(5)
+	 */
 	
 	@Test
 	public void locationsSuccessResponseWithIncreasedCount() {
